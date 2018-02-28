@@ -1,0 +1,12 @@
+PODS:
+  - TwilioVideo (1.0.2)
+
+DEPENDENCIES:
+  - TwilioVideo (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  TwilioVideo: 11476457cfd7fc7d3ff9c05df28c628078d6f222
+
+PODFILE CHECKSUM: f5a609b57c3d62d02a0cd0c0879bd397f0bdec1b
+
+COCOAPODS: 1.2.1

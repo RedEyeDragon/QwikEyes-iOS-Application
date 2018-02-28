@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4039A55E2553A41E59BA9B840B0089A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CE926EFB41B05E836934F0D3E9B69BF8 /* Pods-TwilioVideo-VideoQuickStart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB99C5114922E87C9B013775AEB39A7 /* Pods-TwilioVideo-VideoQuickStart-dummy.m */; };
+		F5C9A84F858C89AFE3FDAD4E96491A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FD820A7D54CFCDBAA8671F64E5263770 /* Pods-TwilioVideo-VideoCallKitQuickStart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8908A403349CECA04FEDB29C7B301EAD /* Pods-TwilioVideo-VideoCallKitQuickStart-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181F61628402ECB630F2D362ECF222E0 /* Pods-TwilioVideo-VideoCallKitQuickStart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwilioVideo-VideoCallKitQuickStart-frameworks.sh"; sourceTree = "<group>"; };
+		18A2553618D60612D38AC8726FB3B000 /* Pods-TwilioVideo-VideoQuickStart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwilioVideo-VideoQuickStart.debug.xcconfig"; sourceTree = "<group>"; };
+		3D6023DDFB89D1B4828A61658D7FBAEC /* Pods-TwilioVideo-VideoCallKitQuickStart-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwilioVideo-VideoCallKitQuickStart-resources.sh"; sourceTree = "<group>"; };
+		46FD0AABB5AC9C19898757CC408ECC2D /* libPods-TwilioVideo-VideoCallKitQuickStart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TwilioVideo-VideoCallKitQuickStart.a"; path = "libPods-TwilioVideo-VideoCallKitQuickStart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		590D020A41A613A8EAEA313D9E195085 /* Pods-TwilioVideo-VideoCallKitQuickStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwilioVideo-VideoCallKitQuickStart.release.xcconfig"; sourceTree = "<group>"; };
+		605D24FD6566FD96E65968A5B3C3F1C4 /* Pods-TwilioVideo-VideoCallKitQuickStart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwilioVideo-VideoCallKitQuickStart-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8908A403349CECA04FEDB29C7B301EAD /* Pods-TwilioVideo-VideoCallKitQuickStart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwilioVideo-VideoCallKitQuickStart-dummy.m"; sourceTree = "<group>"; };
+		8A28346B196F23DF6CB177E125EDF4E7 /* libPods-TwilioVideo-VideoQuickStart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TwilioVideo-VideoQuickStart.a"; path = "libPods-TwilioVideo-VideoQuickStart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D6DD7C152362B48AAED3FF128E09A0 /* Pods-TwilioVideo-VideoQuickStart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwilioVideo-VideoQuickStart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BC73C925CF673466C7BBF509386CF1B /* Pods-TwilioVideo-VideoQuickStart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwilioVideo-VideoQuickStart-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F5787FF54BC81CDE84286F8F739C4FB /* Pods-TwilioVideo-VideoCallKitQuickStart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwilioVideo-VideoCallKitQuickStart.debug.xcconfig"; sourceTree = "<group>"; };
+		C372DC50E8719197D65A00C4911BCE85 /* Pods-TwilioVideo-VideoCallKitQuickStart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwilioVideo-VideoCallKitQuickStart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C498FAA664130CC54170E4073885EFB1 /* TwilioVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioVideo.framework; sourceTree = "<group>"; };
+		D8D131CA8FBB6BBB6CC0648037604610 /* Pods-TwilioVideo-VideoQuickStart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwilioVideo-VideoQuickStart.release.xcconfig"; sourceTree = "<group>"; };
+		E78214AB2B40B5DD538B1114B1DA41C2 /* Pods-TwilioVideo-VideoQuickStart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwilioVideo-VideoQuickStart-frameworks.sh"; sourceTree = "<group>"; };
+		EBB99C5114922E87C9B013775AEB39A7 /* Pods-TwilioVideo-VideoQuickStart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwilioVideo-VideoQuickStart-dummy.m"; sourceTree = "<group>"; };
+		FDC1A5518B1555122CE65E2AE0CAB762 /* Pods-TwilioVideo-VideoQuickStart-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwilioVideo-VideoQuickStart-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318ED616597C8D9C1EDCA318556EF406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039A55E2553A41E59BA9B840B0089A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94951121F95063C4364E0339E0E3F264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C9A84F858C89AFE3FDAD4E96491A1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1B533F1A9B0589E0222ED698D53921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C498FAA664130CC54170E4073885EFB1 /* TwilioVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F14A8A4622E194A763A5C707D9680A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0027D216ABCDF86B6A3542A82796232 /* TwilioVideo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1284D626027FCA7D3F7A6DAAFC1B22D8 /* Pods-TwilioVideo-VideoCallKitQuickStart */ = {
+			isa = PBXGroup;
+			children = (
+				C372DC50E8719197D65A00C4911BCE85 /* Pods-TwilioVideo-VideoCallKitQuickStart-acknowledgements.markdown */,
+				605D24FD6566FD96E65968A5B3C3F1C4 /* Pods-TwilioVideo-VideoCallKitQuickStart-acknowledgements.plist */,
+				8908A403349CECA04FEDB29C7B301EAD /* Pods-TwilioVideo-VideoCallKitQuickStart-dummy.m */,
+				181F61628402ECB630F2D362ECF222E0 /* Pods-TwilioVideo-VideoCallKitQuickStart-frameworks.sh */,
+				3D6023DDFB89D1B4828A61658D7FBAEC /* Pods-TwilioVideo-VideoCallKitQuickStart-resources.sh */,
+				9F5787FF54BC81CDE84286F8F739C4FB /* Pods-TwilioVideo-VideoCallKitQuickStart.debug.xcconfig */,
+				590D020A41A613A8EAEA313D9E195085 /* Pods-TwilioVideo-VideoCallKitQuickStart.release.xcconfig */,
+			);
+			name = "Pods-TwilioVideo-VideoCallKitQuickStart";
+			path = "Target Support Files/Pods-TwilioVideo-VideoCallKitQuickStart";
+			sourceTree = "<group>";
+		};
+		1FC5F16358B883825F4A7CFA62165818 /* Pods-TwilioVideo-VideoQuickStart */ = {
+			isa = PBXGroup;
+			children = (
+				98D6DD7C152362B48AAED3FF128E09A0 /* Pods-TwilioVideo-VideoQuickStart-acknowledgements.markdown */,
+				9BC73C925CF673466C7BBF509386CF1B /* Pods-TwilioVideo-VideoQuickStart-acknowledgements.plist */,
+				EBB99C5114922E87C9B013775AEB39A7 /* Pods-TwilioVideo-VideoQuickStart-dummy.m */,
+				E78214AB2B40B5DD538B1114B1DA41C2 /* Pods-TwilioVideo-VideoQuickStart-frameworks.sh */,
+				FDC1A5518B1555122CE65E2AE0CAB762 /* Pods-TwilioVideo-VideoQuickStart-resources.sh */,
+				18A2553618D60612D38AC8726FB3B000 /* Pods-TwilioVideo-VideoQuickStart.debug.xcconfig */,
+				D8D131CA8FBB6BBB6CC0648037604610 /* Pods-TwilioVideo-VideoQuickStart.release.xcconfig */,
+			);
+			name = "Pods-TwilioVideo-VideoQuickStart";
+			path = "Target Support Files/Pods-TwilioVideo-VideoQuickStart";
+			sourceTree = "<group>";
+		};
+		3E1DE53EB13F96800B694A4DCDC928CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FD0AABB5AC9C19898757CC408ECC2D /* libPods-TwilioVideo-VideoCallKitQuickStart.a */,
+				8A28346B196F23DF6CB177E125EDF4E7 /* libPods-TwilioVideo-VideoQuickStart.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F14A8A4622E194A763A5C707D9680A2 /* Pods */,
+				3E1DE53EB13F96800B694A4DCDC928CE /* Products */,
+				A642D072A30762CED7E9CDFEB2E31A36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A642D072A30762CED7E9CDFEB2E31A36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1284D626027FCA7D3F7A6DAAFC1B22D8 /* Pods-TwilioVideo-VideoCallKitQuickStart */,
+				1FC5F16358B883825F4A7CFA62165818 /* Pods-TwilioVideo-VideoQuickStart */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E0027D216ABCDF86B6A3542A82796232 /* TwilioVideo */ = {
+			isa = PBXGroup;
+			children = (
+				0D1B533F1A9B0589E0222ED698D53921 /* Frameworks */,
+			);
+			name = TwilioVideo;
+			path = TwilioVideo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67DFA2FA7D3B3892EAFEA65C6E08E0A2 /* Pods-TwilioVideo-VideoQuickStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6594D38C1206601A0ECE5866F324BB /* Build configuration list for PBXNativeTarget "Pods-TwilioVideo-VideoQuickStart" */;
+			buildPhases = (
+				A391247F62DCFA1CBE52DF69E95E9973 /* Sources */,
+				318ED616597C8D9C1EDCA318556EF406 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TwilioVideo-VideoQuickStart";
+			productName = "Pods-TwilioVideo-VideoQuickStart";
+			productReference = 8A28346B196F23DF6CB177E125EDF4E7 /* libPods-TwilioVideo-VideoQuickStart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		698CC326C576A387776EA3C6D0B5FC0D /* Pods-TwilioVideo-VideoCallKitQuickStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13521C5EA93B9ED64AC58ACDE7350B8F /* Build configuration list for PBXNativeTarget "Pods-TwilioVideo-VideoCallKitQuickStart" */;
+			buildPhases = (
+				0FA6A5D0F43785190B1A681256802F27 /* Sources */,
+				94951121F95063C4364E0339E0E3F264 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TwilioVideo-VideoCallKitQuickStart";
+			productName = "Pods-TwilioVideo-VideoCallKitQuickStart";
+			productReference = 46FD0AABB5AC9C19898757CC408ECC2D /* libPods-TwilioVideo-VideoCallKitQuickStart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3E1DE53EB13F96800B694A4DCDC928CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				698CC326C576A387776EA3C6D0B5FC0D /* Pods-TwilioVideo-VideoCallKitQuickStart */,
+				67DFA2FA7D3B3892EAFEA65C6E08E0A2 /* Pods-TwilioVideo-VideoQuickStart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA6A5D0F43785190B1A681256802F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD820A7D54CFCDBAA8671F64E5263770 /* Pods-TwilioVideo-VideoCallKitQuickStart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A391247F62DCFA1CBE52DF69E95E9973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE926EFB41B05E836934F0D3E9B69BF8 /* Pods-TwilioVideo-VideoQuickStart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38BDDE12BC3B14F278BFEFDF9E63F09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D131CA8FBB6BBB6CC0648037604610 /* Pods-TwilioVideo-VideoQuickStart.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E16579B704C01AB5F68FA09C586EC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		661280DAC539E3FA8340AF92F8B97BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590D020A41A613A8EAEA313D9E195085 /* Pods-TwilioVideo-VideoCallKitQuickStart.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89233C0FF24FEF4F35F7D483CC595AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F5787FF54BC81CDE84286F8F739C4FB /* Pods-TwilioVideo-VideoCallKitQuickStart.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD437F2BFE4533E225F1C5E01F86CD7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC0FA690E2A3F52933AE8E5129B7D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A2553618D60612D38AC8726FB3B000 /* Pods-TwilioVideo-VideoQuickStart.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13521C5EA93B9ED64AC58ACDE7350B8F /* Build configuration list for PBXNativeTarget "Pods-TwilioVideo-VideoCallKitQuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89233C0FF24FEF4F35F7D483CC595AE0 /* Debug */,
+				661280DAC539E3FA8340AF92F8B97BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E16579B704C01AB5F68FA09C586EC90 /* Debug */,
+				AD437F2BFE4533E225F1C5E01F86CD7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6594D38C1206601A0ECE5866F324BB /* Build configuration list for PBXNativeTarget "Pods-TwilioVideo-VideoQuickStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC0FA690E2A3F52933AE8E5129B7D8A /* Debug */,
+				38BDDE12BC3B14F278BFEFDF9E63F09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
